@@ -34,5 +34,12 @@
       <button type="submit">Submit</button>
     </form>
     <div class="footer">Copyright © 2023. All rights are reserved</div>
+    <script>
+      const form = document.querySelector("form")
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  window.location.replace("thanks.html");
+});
+    </script>
   </body>
 </html>
